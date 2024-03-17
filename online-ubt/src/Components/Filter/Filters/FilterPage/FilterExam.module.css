@@ -1,0 +1,140 @@
+/* ExamPage.module.css */
+
+.container {
+  white-space: normal;
+  max-width: 1200px;
+  width: 100%; 
+  height: auto;
+  padding: 20px;
+  margin: 0 auto; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.flag {
+  padding-right: 5px;
+}
+
+p {
+  font-size: 1rem; 
+  font-weight: 700;
+  white-space: nowrap;
+  white-space: normal;
+  max-width: 200px;
+  width: 100%; 
+  margin-right: 100px;
+  
+}
+
+.examLang {
+  display: flex;
+}
+
+.background {
+  padding: 20px;
+  background-color: #F7F7F7;
+  border-radius: 15px;
+}
+
+.languageToggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.languageButton {
+  margin: 0 10px;
+  border: 1px solid transparent; 
+  background-color: #fff;
+  color: #000;
+  white-space: nowrap;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 5px 5px; 
+  display: flex;
+  align-items: center;
+  transition: border-color 0.3s; 
+}
+
+.languageButtonActive {
+  background-color: #eee;
+  color: #333;
+}
+
+.subjectCategory {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+
+.CompSubjects,
+.ElectiveSubjects {
+  white-space: nowrap;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.subjectButtonMust{
+  display: flex;
+  margin: 5px;
+  background-color: white;
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 10px; 
+  border: 1px solid #ddd; 
+}
+
+.subjectButton {
+  justify-content: center;
+  display: flex;
+  margin: 5px;
+  background-color: white;
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.subjectButton:hover,
+.subjectButton:focus {
+  background-color: #eee; 
+  color: #333;
+}
+
+.startButton {
+  background-color: #00897b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: auto; 
+  padding: 15px 70px; 
+  margin-top: 150px; 
+  margin-left: 1010px;
+  transition: background-color 0.3s; 
+}
+
+.startButton:hover,
+.startButton:focus {
+  background-color: #00695c; 
+}
+
+
+
+
+
+
+
